@@ -212,7 +212,7 @@
     "cy:run": "cypress run",
     "cy:run:record": "npm run cy:run -- --record",
     "cy:open": "cypress open",
-    "test:e2e:run": "start-server-and-test start https://5f3f9f1c711041e6cf841e2e--tu-smallshop.netlify.app/ cy:run",
+    "test:e2e:run": "start-server-and-test start http://localhost:3000 cy:run",
     "test:e2e:run:record": "start-server-and-test start http://localhost:3000 cy:run:record",
     "test:e2e:dev": "start-server-and-test start http://localhost:3000 cy:open",
     "extract-json-messages": "rimraf dist/locale && cross-env NODE_ENV=extract babel src 'src/**/*.{ts,tsx}' -o /dev/null",
