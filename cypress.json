@@ -3,6 +3,7 @@
   "env": {
     "API_URI": "https://pwa.demo.saleor.rocks/graphql/"
   },
+  "projectId": "mm1fs8",
   "defaultCommandTimeout": 15000,
   "requestTimeout": 15000,
   "viewportWidth": 1400,
