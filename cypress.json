@@ -1,7 +1,7 @@
 {
-  "baseUrl": "http://localhost:3000",
+  "baseUrl": "https://5f3f9f1c711041e6cf841e2e--tu-smallshop.netlify.app/",
   "env": {
-    "API_URI": "https://pwa.demo.saleor.rocks/graphql/"
+    "API_URI": "https://smallshop-dev-62acqvdwoq-ew.a.run.app/graphql/"
   },
   "projectId": "mm1fs8",
   "defaultCommandTimeout": 15000,
