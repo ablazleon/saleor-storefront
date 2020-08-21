@@ -18,7 +18,7 @@ describe("User login, logout and registration", () => {
   });
 
   describe("Register new account", () => {
-    xit("should register a new user xit because of the email, waiting for https://github.com/mailhog/MailHog to be configured", () => {
+    it("should register a new user xit because of the email, waiting for https://github.com/mailhog/MailHog to be configured", () => {
       const randomWord = faker.random.words(2).replace(" ", "-");
       const fakeEmailAdressText = `${randomWord}@example.com`;
       const fakePasswordText = faker.internet.password();
