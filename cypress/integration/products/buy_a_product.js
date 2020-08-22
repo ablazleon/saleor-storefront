@@ -1,3 +1,5 @@
+/***
+
 import faker from "faker";
 
 import { HEADER_SELECTORS } from "../../elements/main-header/header-selectors";
@@ -197,3 +199,5 @@ describe("Buy a product", () => {
       .should("be.visible", { timeout: 20000 });
   });
 });
+
+***/
