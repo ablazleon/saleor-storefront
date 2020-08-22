@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://5f3f9f1c711041e6cf841e2e--tu-smallshop.netlify.app/",
+  "baseUrl": "https://tu-smallshop.netlify.app/",
   "env": {
     "API_URI": "https://smallshop-dev-62acqvdwoq-ew.a.run.app/graphql/"
   },
