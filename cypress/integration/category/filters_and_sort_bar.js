@@ -1,6 +1,8 @@
+/*** 
 import { CATEGORY_SELECTORS } from "../../elements/category/category-page";
 import { LEFT_FILTERS_SELECTORS } from "../../elements/filters-left-menu/filters-menu";
-/*** 
+
+
 describe("Category view - filtering and sorting", () => {
   beforeEach(() => {
     cy.server();
