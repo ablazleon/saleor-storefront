@@ -8,7 +8,7 @@ ARG SENTRY_DSN
 ARG SENTRY_APM
 ARG DEMO_MODE
 ARG GTM_ID
-ENV API_URI ${API_URI:-https://smallshop-dev-62acqvdwoq-ew.a.run.app/graphql/}
+ENV API_URI=${API_URI}
 RUN API_URI=${API_URI} npm run build
 
 FROM nginx:stable
